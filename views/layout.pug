@@ -5,3 +5,7 @@ html
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     block content
+    form(method="POST" action="/")
+      input(type="text" placeholder="Name" name="messageUser")
+      input(type="text" placeholder="Write your message" name="messageText")
+      button Send

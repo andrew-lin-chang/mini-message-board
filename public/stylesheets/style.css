@@ -6,3 +6,30 @@ body {
 a {
   color: #00B7FF;
 }
+
+.message {
+  display: grid;
+  place-items: start;
+  max-width: 50%;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.user {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+}
+
+form {
+  display: grid;
+  width: 30rem;
+  grid-template-columns: 4fr 1fr;
+}
+
+form button {
+  grid-column: 2/-1;
+  grid-row: 1/span 2;
+}
